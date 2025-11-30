@@ -69,7 +69,7 @@ class schedule:
         for i in self.days_uneven.keys():
             print(f"day {i}  / {self.days_uneven[i].tostr()}")
 # iait_17-18-1.09.22
-def parsing(path = 'D:\\projects\\VisualStudioCode\\Laba_2_3_5_Graphics\\data\\iait_17-18-1.06.02.xls'):
+def parsing(path = 'D:\\projects\\VisualStudioCode\\Laba_2_3_5_Schedule\\data\\iait_17-18-1.06.02.xls'):
     # Открытие файла
     print("parsing...")
     workbook = xlrd.open_workbook(path)

@@ -269,9 +269,9 @@ class TableWindow:
             self.click_parity.config(text="ченетная")
             self.parity = 0
 
-data_directory = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Graphics\\data"
-selected_file = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Graphics\\data\\iait_17-18-1.06.02.xls"
-selected_file1 = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Graphics\\data\\iait_17-18-1.09.22.xls"
+data_directory = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Schedule\\data"
+selected_file = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Schedule\\data\\iait_17-18-1.06.02.xls"
+selected_file1 = "D:\\projects\\VisualStudioCode\\Laba_2_3_5_Schedule\\data\\iait_17-18-1.09.22.xls"
 def create_window():
     # Создаем новое окно
     new_window = tk.Toplevel()
